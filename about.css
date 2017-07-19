@@ -103,6 +103,12 @@ p{
 	font: 20px TAHOMA;
 	text-align: justify;
     background: url(pic7.jpg);
+	-webkit-border-radius:15px;
+	margin:15px;
+	padding:10px;	
+	border-top: 5px solid #20189b;
+	border-bottom: 5px solid #20189b;
+	
 }
 #sm{
 	margin-left:10px;
