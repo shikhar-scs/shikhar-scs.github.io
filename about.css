@@ -80,7 +80,7 @@ li{
 }
 			
 li:hover{
-		-webkit-transform: scale(1.5);
+		-webkit-transform: scale(1.2);
 		
 }
 
@@ -97,7 +97,7 @@ li:hover{
 				-webkit-transition:-webkit-transform 1s;
 }
 #middle_content:hover{
-						-webkit-transform: scale(1.1);	
+						-webkit-transform: scale(1.02);	
 }
 p{
 	font: 20px TAHOMA;
@@ -118,7 +118,7 @@ p{
 		
 }
 #sm:hover{
-			-webkit-transform: rotate(360deg) scale(2);	
+			-webkit-transform: rotate(360deg) scale(1.5);	
 }
 
 #left_side{
