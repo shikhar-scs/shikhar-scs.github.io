@@ -79,7 +79,7 @@ li{
 }
 			
 li:hover{
-		-webkit-transform: scale(1.5);
+		-webkit-transform: scale(1.2);
 		
 }
 
@@ -155,7 +155,7 @@ h4{
 		
 }
 #sm:hover{
-			-webkit-transform: rotate(360deg) scale(2);	
+			-webkit-transform: rotate(360deg) scale(1.5);	
 }
 
 #left_side{
