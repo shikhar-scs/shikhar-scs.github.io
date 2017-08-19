@@ -4,7 +4,7 @@ header,section,footer,nav,aside,article,hgroup{display:block;
 *{
 	margin:0px;
 	padding:0px;
-	
+
  }
 body{
 	 width:100%;
@@ -12,18 +12,19 @@ body{
 	 -webkit-box-pack:center;
 	 background-color:#eefffc;
 	 background-image:url(pic5.jpg);
-	 
+	 text-decoration-color: white;
+
 }
- 
+
 #main_layout{
 	 width:100%;
 	 margin:0px 0px;
 	 display:-webkit-box;
 	 -webkit-box-orient:vertical;
-	 -webkit-box-flex:1; 
-}	
- 
- 
+	 -webkit-box-flex:1;
+}
+
+
 #top_thing{
 			margin-left:10%;
 			margin-right:10%;
@@ -31,7 +32,7 @@ body{
 			-webkit-border-radius:5px;
 			-webkit-box-flex:1;
 			padding: 5px;
-			
+
 			text-align:center;
 			 background-image:url(pic1.jpg);
 			border-top: 5px solid #20189b;
@@ -40,23 +41,23 @@ body{
 
 
 h1{ font:60px Calibri;
-	color:#003366;
+	color:white;
 	margin-left:10%;
 			margin-right:10%;
 			display:inline-block;
 }
 
 h2{ font:bold 25px Calibri;
-	color:#003366;
+	color:white;
 }
 h3{ font: 20px Calibri;
-	color:#003366;
-	
+	color:white;
+
 }
 h6{ font:bold 80px Calibri;
-	color:#003366;
+	color:white;
 }
-a:link{ color:#00658f;
+a:link{ color:white;
 			text-decoration:none;
 }
 
@@ -68,7 +69,7 @@ a:link{ color:#00658f;
 			display:inline-block;
 }
 
-li{	
+li{
 		display:inline-block;
 		list-style:none;
 		padding-left:50px;
@@ -84,13 +85,13 @@ li{
 		background-image:url(pic2.jpg);
 		border-bottom: 3px solid #5A51E6;
 		font: 20px TAHOMA;
-		-webkit-transition:-webkit-transform 1s;	
-		
+		-webkit-transition:-webkit-transform 1s;
+
 }
-			
+
 li:hover{
 		-webkit-transform: scale(1.2);
-		
+
 }
 p{
 	font: 20px TAHOMA;
@@ -98,10 +99,10 @@ p{
     background: url(pic7.jpg);
 	-webkit-border-radius:15px;
 	margin:15px;
-	padding:10px;	
+	padding:10px;
 	border-top: 5px solid #20189b;
 	border-bottom: 5px solid #20189b;
-	
+
 }
 #middle_content{
 				margin-left:10%;
@@ -117,22 +118,22 @@ p{
 				-webkit-transition:-webkit-transform 1s;
 }
 #middle_content:hover{
-						-webkit-transform: scale(1.02);	
+						-webkit-transform: scale(1.02);
 }
 
 #sm{
 	margin-left:10px;
 	margin-right:10px;
 	margin-top:10px;
-	-webkit-transition:-webkit-transform 1s;	
-		
+	-webkit-transition:-webkit-transform 1s;
+
 }
 #sm:hover{
-			-webkit-transform: rotate(360deg) scale(1.5);	
+			-webkit-transform: rotate(360deg) scale(1.5);
 }
 
 #left_side{
-			
+
 			-webkit-border-radius:5px;
 			background-image:url(pic1.jpg);
 			border-bottom: 5px solid #20189b;
@@ -141,7 +142,7 @@ p{
 			margin-left:10%;
 			margin-right:10%;
 			width:80%;
-			margin-top:30px;	
+			margin-top:30px;
 }
 
 #bottom_thing{
@@ -156,5 +157,5 @@ p{
 			-webkit-border-radius:5px;
 			background-color:white;
 			border-top: 5px solid #20189b;
-			
+
 }
